@@ -1,0 +1,9 @@
+.main {
+  &__title {
+    width: 75%;
+
+    @media screen and (min-width: $tablet-min) {
+      width: 100%;
+    }
+  }
+}

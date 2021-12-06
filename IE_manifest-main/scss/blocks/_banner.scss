@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("../img/banner-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+
+  @media screen  and (min-width: $tablet-min) {
+    background-image: url("../img/banner-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    background-image: url("../img/banner-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+  }
+}
+

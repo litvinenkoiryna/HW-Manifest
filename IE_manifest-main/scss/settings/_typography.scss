@@ -1,0 +1,131 @@
+.heading {
+  &__h1 {
+    font-size: 33px;
+    line-height: 50px;
+    font-family: $font-secondary;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+}
+h2{
+  font-size: $h2-font-size;
+  line-height: 38px;
+  font-family: $font-secondary;
+  color: $color-black-default;
+  letter-spacing: 0.05em;
+}
+
+p{
+  font-size: $body-font-size;
+  line-height: 32px;
+  font-family: $font-primary;
+  color: $color-black-primary;
+  letter-spacing: 0.05em;
+}
+.banner {
+  &__title{
+    margin: 48px 0 16px 0;
+
+    @media screen and (min-width: $tablet-min){
+      margin: 56px 0 16px 0;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 130px 0 40px 0;
+    }
+  }
+  &__description {
+    margin: 0 0 40px 0;
+    min-width: 288px;
+
+    @media screen and (min-width: $tablet-min) {
+      max-width: 733px;
+    }
+    @media screen and (min-width: $desktop) {
+      max-width: 544px;
+    }
+  }
+}
+
+.first-section {
+  &__title {
+    margin: 65px 0 32px 0;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 81px 0 60px 0;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 211px 0 40px 0;
+    }
+  }
+
+  &__description {
+    margin: 48px 0 40px 0;
+    min-width: 288px;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 56px 0 60px 0;
+      max-width: 733px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 50px 0 50px 0;
+      max-width: 1120px;
+    }
+  }
+}
+
+.second-section {
+  &__title {
+    margin: 64px 0 40px 0;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 56px 0 40px 0;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 128px 0 40px 0;
+    }
+  }
+
+  &__description {
+    margin: 40px 0 40px 0;
+    min-width: 288px;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 46px 0 46px 0;
+      max-width: 733px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 50px 0 50px 0;
+      max-width: 1120px;
+    }
+  }
+}
+
+.third-section {
+  &__title {
+    margin: 64px 0 40px 0;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 56px 0 40px 0;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 128px 0 40px 0;
+    }
+  }
+
+  &__description {
+    margin: 48px 0 40px 0;
+    min-width: 288px;
+
+    @media screen and (min-width: $tablet-min) {
+      margin: 56px 0 40px 0;
+      max-width: 733px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 50px 0 50px 0;
+      max-width: 1120px;
+    }
+  }
+}

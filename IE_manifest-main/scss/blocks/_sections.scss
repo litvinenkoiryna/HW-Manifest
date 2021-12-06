@@ -1,0 +1,64 @@
+.first-section__img {
+  background-image: url("../img/first-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+
+  @media screen  and (min-width: $tablet-min) {
+    background-image: url("../img/first-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+}
+
+  @media screen and (min-width: $desktop) {
+    background-image: url("../img/first-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+    }
+}
+.second-section__img {
+  background-image: url("../img/second-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+
+    @media screen  and (min-width: $tablet-min) {
+      background-image: url("../img/second-tablet.jpg");
+      height: 52vw;
+      min-height: 400px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      background-image: url("../img/second-desktop.jpg");
+      height: 30vw;
+      min-height: 470px;
+    }
+}
+
+.third-section__img {
+  background-image: url("../img/third-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+
+    @media screen  and (min-width: $tablet-min) {
+      background-image: url("../img/third-tablet.jpg");
+      height: 52vw;
+      min-height: 400px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      background-image: url("../img/third-desktop.jpg");
+      height: 30vw;
+      min-height: 470px;
+    }
+  }

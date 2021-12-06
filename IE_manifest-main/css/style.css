@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading__h1 {
+  font-size: 33px;
+  line-height: 50px;
+  font-family: "Red Hat Display", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  .heading__h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 38px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000000;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-size: 19px;
+  line-height: 32px;
+  font-family: "Lato", sans-serif;
+  color: #565656;
+  letter-spacing: 0.05em;
+}
+
+.banner__title {
+  margin: 48px 0 16px 0;
+}
+@media screen and (min-width: 768px) {
+  .banner__title {
+    margin: 56px 0 16px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner__title {
+    margin: 130px 0 40px 0;
+  }
+}
+.banner__description {
+  margin: 0 0 40px 0;
+  min-width: 288px;
+}
+@media screen and (min-width: 768px) {
+  .banner__description {
+    max-width: 733px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner__description {
+    max-width: 544px;
+  }
+}
+
+.first-section__title {
+  margin: 65px 0 32px 0;
+}
+@media screen and (min-width: 768px) {
+  .first-section__title {
+    margin: 81px 0 60px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .first-section__title {
+    margin: 211px 0 40px 0;
+  }
+}
+.first-section__description {
+  margin: 48px 0 40px 0;
+  min-width: 288px;
+}
+@media screen and (min-width: 768px) {
+  .first-section__description {
+    margin: 56px 0 60px 0;
+    max-width: 733px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .first-section__description {
+    margin: 50px 0 50px 0;
+    max-width: 1120px;
+  }
+}
+
+.second-section__title {
+  margin: 64px 0 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .second-section__title {
+    margin: 56px 0 40px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .second-section__title {
+    margin: 128px 0 40px 0;
+  }
+}
+.second-section__description {
+  margin: 40px 0 40px 0;
+  min-width: 288px;
+}
+@media screen and (min-width: 768px) {
+  .second-section__description {
+    margin: 46px 0 46px 0;
+    max-width: 733px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .second-section__description {
+    margin: 50px 0 50px 0;
+    max-width: 1120px;
+  }
+}
+
+.third-section__title {
+  margin: 64px 0 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .third-section__title {
+    margin: 56px 0 40px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .third-section__title {
+    margin: 128px 0 40px 0;
+  }
+}
+.third-section__description {
+  margin: 48px 0 40px 0;
+  min-width: 288px;
+}
+@media screen and (min-width: 768px) {
+  .third-section__description {
+    margin: 56px 0 40px 0;
+    max-width: 733px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .third-section__description {
+    margin: 50px 0 50px 0;
+    max-width: 1120px;
+  }
+}
+
+.body {
+  min-width: 320px;
+  color: #565656;
+  font-size: 19px;
+  padding: 110px 0 70px;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    margin-bottom: 50px;
+  }
+}
+.logo__link {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main__title {
+  width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .main__title {
+    width: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 15px;
+}
+
+.banner {
+  background-image: url("../img/banner-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("../img/banner-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner {
+    background-image: url("../img/banner-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+  }
+}
+
+.first-section__img {
+  background-image: url("../img/first-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+}
+@media screen and (min-width: 768px) {
+  .first-section__img {
+    background-image: url("../img/first-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .first-section__img {
+    background-image: url("../img/first-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+  }
+}
+
+.second-section__img {
+  background-image: url("../img/second-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+}
+@media screen and (min-width: 768px) {
+  .second-section__img {
+    background-image: url("../img/second-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .second-section__img {
+    background-image: url("../img/second-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+  }
+}
+
+.third-section__img {
+  background-image: url("../img/third-mobile.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 90vw;
+  min-height: 288px;
+}
+@media screen and (min-width: 768px) {
+  .third-section__img {
+    background-image: url("../img/third-tablet.jpg");
+    height: 52vw;
+    min-height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .third-section__img {
+    background-image: url("../img/third-desktop.jpg");
+    height: 30vw;
+    min-height: 470px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
